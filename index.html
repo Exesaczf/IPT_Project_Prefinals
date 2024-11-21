@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Finder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+        <form>
+            <input type="text" id="search" placeholder="Enter ingredients">
+            <select id="mealCategory">
+                <option value="">Select Meal Category</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="snack">Dessert</option>
+            </select>
+            <button type="button" id="submit" class="btn">Search</button>
+            <button type="button" id="surpriseBtn" class="btn">Surprise Me</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
